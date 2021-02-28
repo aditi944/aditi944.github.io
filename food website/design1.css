@@ -1,0 +1,217 @@
+*{
+ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  #nav-bar {
+    top: 0;
+    z-index: 10;
+  }
+  
+  .nav-bar {
+    background-image: linear-gradient(center, #0c090c, #121113);
+    padding: 10px;
+  }
+  
+  .navbar-brand img {
+    height: 60px;
+    padding-left: 20px;
+  }
+  
+  .navbar-nav li {
+    padding: 0 10px;
+    background-color: rgb(66, 38, 18);
+  }
+  
+  .navbar-nav li a {
+    color: rgb(165, 180, 165) !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+  }
+  
+  .fa-bars {
+    color: rgb(7, 2, 2);
+    font-size: 30px !important;
+  }
+  
+  .navbar-toggler {
+    outline: none !important;
+  }
+
+
+  #banner {
+    background-image: linear-gradient(to right, #2f4979, #23949c);
+    color: rgb(29, 28, 28);
+    padding-top: 5%;
+  }
+  .zaika{
+    text-decoration: rgb(124, 59, 59);
+    margin:50px;
+    padding:30px;
+     font-family: "Brush Script MT", cursive;
+     height:50px;
+    font-size: 60px;
+    font-weight: 20px;
+     
+  }
+  .te{
+    font-size: 20px;
+    font-weight:normal
+  }
+  
+  .promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+  }
+  
+  .play-btn {
+    width: 45px;
+    margin: 20px;
+  }
+  #banner a {
+    color: rgb(32, 11, 11);
+    text-decoration: none;
+  }
+  
+  .img-fluid {
+    height: 500px;
+  }
+  .bottom-img {
+    width: 100%;
+    height: 100px;
+  }
+  
+
+
+ #items{
+   background-image: linear-gradient(to right, #2f4979, #23949c);
+ }
+  .best-item{
+    text-align: center;
+    padding:20px;
+    margin:50px;
+    
+  }
+  .food-images{
+    height:250px;
+    width:500px;
+  }
+  .card{
+    width:33%;
+    padding:30px;
+    margin:40px;
+  }
+  
+
+  /*testimonials*/
+   #testimonials
+  {
+    background-image: linear-gradient(to right, #2f4979, #23949c);
+     margin : 40px 0;
+  }
+  .testimonials
+  {
+     border-left: 4px solid #7b1798;
+     margin: top 10px;
+     margin-bottom: 50px;
+     margin:10px;
+  }
+  .testimonials img
+  {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  .user-details
+  {
+    display:inline-block;
+    font-size: 12px;
+  }
+
+
+  /*social*/
+ #social-media {
+  background-image: linear-gradient(to right, #2f4979, #23949c);
+  margin-bottom:20px;
+  padding: 100px 0;
+}
+#social-media p {
+font-size: 36px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+.social-icons img {
+width: 60px;
+transition: 0.5s;
+}
+.social-icons a:hover img {
+transform: translate(-10px);
+}
+.img{
+   padding: 0; margin: 0;
+    position:absolute;
+  right:10px;
+ 
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*footer*/
+
+  #footer {
+background-image: linear-gradient(to right,  #2f4979, #23949c);
+color: #fff;}
+
+.footer-img {
+width: 50%;
+}
+.footer-box {
+padding: 20px;
+}
+.footer-box img {
+width: 50px;
+margin-bottom: 20px;
+}
+.footer-box .fa {
+margin-right: 8px;
+font-size: 25px;
+height: 40px;
+width: 40px;
+text-align: center;
+padding-top: 7px;
+border-radius: 2px;
+background-image: linear-gradient(to right, #2f4979, #23949c);
+}
+.footer-box .form-control {
+box-shadow: none !important;
+border: none;
+border-radius: 0;
+margin-top: 25px;
+max-width: 250px;
+}
+.footer-box .btn-primary {
+box-shadow: none !important;
+border: none;
+border-radius: 0;
+margin-top: 30px;
+background-image: linear-gradient(to right, #0a0c0f, #95a9aa);
+}
+ 
+hr {
+background-color: #fff;
+}
+.copyright {
+margin-bottom: 0;
+padding-bottom: 20px;
+text-align: center;
+}
